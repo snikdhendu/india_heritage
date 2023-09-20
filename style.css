@@ -515,7 +515,7 @@ span#words {
 .sub-history .image {
     display: inline-block;
     width: 80%;
-    z-index: 10;
+    z-index: -1;
     position: relative;
     overflow: hidden;
     /* aspect-ratio: 3/2; */
@@ -552,6 +552,8 @@ span#words {
     box-shadow: 5px 5px 20px blueviolet,
         -5px -5px 20px blueviolet;
     transition: all ease 0.3s;
+    position:relative;
+    z-index:-5;
 }
 .sub-history figcaption:hover{
     transform: scale(1.05);

@@ -1,4 +1,5 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Audiowide&family=Kanit:wght@300;400&family=Pacifico&family=Poppins:wght@300&family=Proza+Libre&family=Roboto:wght@100&family=Stick+No+Bills:wght@500;600&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
 
 
 * {
@@ -6,8 +7,13 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
   }
-  
+
+  section{
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
   body {
   
     background: #06021b;
@@ -36,8 +42,8 @@
   .top{
     color:white;
     text-align: center;
-    padding: 10px;
-    margin-top: 30px;
+    /* padding: 10px; */
+    margin-top: 10px;
     font-size: 80px;
   }
   h3{
@@ -60,6 +66,138 @@
     margin-left: 20px;
     text-decoration: solid;
   }
+  body {
+      margin: 0px;
+  }
+  .heading1{
+    /* border: 2px solid red; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  #container {
+      position: absolute;
+      margin: auto;
+      width: 100%;
+      height: 100%;
+      top: 100px;
+      bottom: 0;
+      /* border: 2px solid yellow; */
+      filter: url(#threshold) blur(0.6px);
+
+  }
+  
+  #text1,
+  #text2 {
+      position: absolute;
+      width: 100%;
+      display: inline-block;
+  
+      font-family: "Raleway", sans-serif;
+      font-size: 50pt;
+      color: white;
+      text-align: center;
+  
+      user-select: none;
+  }
+.mainhomecontainer{
+  /* border: 2px solid red; */
+  padding: 0px 20px;
+  display: flex;
+  width: 100%;
+  height: 540px;
+  /* align-items: center; */
+  justify-content: space-between;
+}
+
+  .homecontainer{
+    /* border: 2px solid yellow; */
+    height: auto;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .iconcontainer{
+    /* border: 2px solid green; */
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .icon{
+    /* border: 2px solid yellow; */
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .icontext{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 80%;
+    background-color: rgb(244, 244, 244);
+    border-radius: 22px;
+    box-shadow: inset 0 0 30px rgb(0, 238, 255);
+    text-align: center;
+    padding: 15px;
+  }
+  .icontext h2{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  .icontext{
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+  }
+  #img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.homecontainer img{
+  height: 480px;
+  width: 450px;
+}
+ .icon span {
+  font-size: 130px; /* Set your desired font size */
+  color: white;
+ 
+}
+#left1 .icon span{
+  transform: rotate(30deg);
+}
+#left2 .icon span{
+  transform:rotate(0deg)
+}
+#left3 .icon span{
+  transform:rotate(-30deg)
+}
+#right1 .icon span{
+  transform:rotate(-30deg)
+ 
+}
+#right2 .icon span{
+  transform:rotate(0deg)
+}
+#right3 .icon span{
+  transform: rotate(30deg);
+}
+
+
+
+
+
+
+
+
+
+
+
   .container1 {
       justify-content: center;
       align-content: center;
@@ -73,6 +211,7 @@
       transform: translateX(-100%);
   
     }
+  
     .showleft{
       opacity: 1;
       filter: blur(0);
@@ -97,7 +236,7 @@
       text-align: start;
     }
     .image1 {
-      background-image: url('victoria.webp');
+      background-image: url('../images/victoria.webp');
       width: 300%;
       height: 350px;
       box-shadow:0px 0px 40px 40px white inset;
@@ -132,7 +271,7 @@
       box-shadow: 8px 8px 20px blueviolet;
     }
     .image2{
-      background-image: url('hazar.jpg');
+      background-image: url('../images/hazar.jpg');
       background-size: cover;
       width: 300%;
       height: 350px;
@@ -140,7 +279,7 @@
       border-radius: 30px;
     }
     .image3{
-      background-image: url('bish.jpg');
+      background-image: url('../images/bish.jpg');
       background-size: cover;
       width:300%;
       height: 350px;
@@ -169,7 +308,7 @@
       opacity: 1;
     }
     .image4{
-      background-image: url('cooch.png');
+      background-image: url('../images/cooch.png');
       background-size: cover;
       width: 300%;
       height: 350px;
@@ -177,7 +316,7 @@
       border-radius: 30px;
     }
     .image5{
-      background-image: url('belur.png');
+      background-image: url('../images/belur.png');
       justify-content: center;
       background-size: cover;
       width:350%;

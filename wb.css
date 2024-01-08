@@ -236,7 +236,7 @@
       text-align: start;
     }
     .image1 {
-      background-image: url('../images/victoria.webp');
+      background-image: url('victoria.webp');
       width: 300%;
       height: 350px;
       box-shadow:0px 0px 40px 40px white inset;

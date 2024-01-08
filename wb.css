@@ -271,7 +271,7 @@
       box-shadow: 8px 8px 20px blueviolet;
     }
     .image2{
-      background-image: url('../images/hazar.jpg');
+      background-image: url('hazar.jpg');
       background-size: cover;
       width: 300%;
       height: 350px;
@@ -279,7 +279,7 @@
       border-radius: 30px;
     }
     .image3{
-      background-image: url('../images/bish.jpg');
+      background-image: url('bish.jpg');
       background-size: cover;
       width:300%;
       height: 350px;
@@ -308,7 +308,7 @@
       opacity: 1;
     }
     .image4{
-      background-image: url('../images/cooch.png');
+      background-image: url('cooch.png');
       background-size: cover;
       width: 300%;
       height: 350px;
@@ -316,7 +316,7 @@
       border-radius: 30px;
     }
     .image5{
-      background-image: url('../images/belur.png');
+      background-image: url('belur.png');
       justify-content: center;
       background-size: cover;
       width:350%;
